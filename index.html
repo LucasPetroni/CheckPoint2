@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
     
-    <header>
-        <img src="https://cdn-icons-png.flaticon.com/512/4257/4257483.png" alt="">
-        <nav>
+    <header class="cabecalho">
+        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/4257/4257483.png" alt="">
+        <nav class="links">
             <a href="">Home</a>
             <a href="">Games</a>
             <a href="">Mobile</a>
@@ -18,24 +19,28 @@
         </nav>
     </header>
 
-    <section>
-        <article>
+    <section class="conteudo">
+        <div class="card">
+            <h2>Game</h2>
             <figure>
-                <h2>Game</h2>
-                <img src="./img/game.png" alt="img-game">
+                <img class="img-conteudo" src="./img/game.png" alt="img-game" width="641px" height="359px">
                 <figcaption>Game</figcaption>
             </figure>
+        </div>
+        <div class="card">
+            <h2>Mobile</h2>
             <figure>
-                <h2>Mobile</h2>
-                <img src="./img/mobile.JPG" alt="img-mobile">
+                <img class="img-conteudo" src="./img/mobile.JPG" alt="img-mobile" width="641px" height="359px">
                 <figcaption>Mobile</figcaption>
             </figure>
+        </div>
+        <div class="card">    
+            <h2>Tecnologia</h2>
             <figure>
-                <h2>Tecnologia</h2>
-                <img src="./img/tecnologia.JPG" alt="img-tecnologia">
+                <img class="img-conteudo" src="./img/tecnologia.JPG" alt="img-tecnologia" width="641px" height="359px">
                 <figcaption>Tecnologia</figcaption>
             </figure>
-        </article>
+        </div>
     </section>
 
     <footer>
