@@ -19,5 +19,5 @@
 .rodape nav{
     width: 15%;
     display: flex;
-    
+    min-width: 130px;
 }
