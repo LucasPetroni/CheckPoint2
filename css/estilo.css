@@ -8,6 +8,15 @@
     text-decoration: none;
 }
 
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
 /********************************* VARIABLES **********************************/
 
 :root {
@@ -27,8 +36,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 14rem;
-    margin-bottom: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 13rem;
     /* padding: 2rem 2rem 0rem 2rem; */
 }
 
@@ -51,6 +60,23 @@
     border-radius: 15px;
     width: 25rem;
     /* border: 1px solid black; */
+}
+
+
+@media(max-width: 1000px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho nav{
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 600px){
+    .cabecalho nav{
+        flex-wrap: wrap;
+    }
 }
 
 .texto-tit{
@@ -95,3 +121,4 @@ text-align: center;
 .h2-tit{
     text-align: center;
 }
+
