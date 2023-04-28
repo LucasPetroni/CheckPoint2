@@ -24,6 +24,8 @@
 
     .text-tit{
         font-size: 0.5rem;
+        margin-bottom: 8rem;
+        height: 1400px;
     }
 }
 /* BREAKPOINT-600PX */
@@ -34,13 +36,13 @@
     .conteudo{
         width: 50%;
         align-self: center;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
     }
     .card{
         margin: 15px;
     }
-
     .img-figure{
         width: 40%;
     }
-
 }
