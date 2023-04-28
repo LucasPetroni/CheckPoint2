@@ -11,11 +11,21 @@
 
     .conteudo{
         margin-top: 5rem;
-        margin-bottom: 8rem;
-        height: 1400px;
+        margin-bottom: 15rem;
     }
     .card{
-        margin: 5px;
+        margin: 15px;
+    }
+
+    .img-figure{
+        width: 200%;
+        
+    }
+
+    .text-tit{
+        font-size: 0.5rem;
+        margin-bottom: 8rem;
+        height: 1400px;
     }
 }
 /* BREAKPOINT-600PX */
@@ -24,10 +34,15 @@
         flex-wrap: wrap;
     }
     .conteudo{
+        width: 50%;
+        align-self: center;
         margin-top: 3rem;
         margin-bottom: 10rem;
     }
     .card{
         margin: 15px;
+    }
+    .img-figure{
+        width: 40%;
     }
 }
