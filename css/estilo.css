@@ -1,5 +1,6 @@
 @import url("./cabecalho.css");
 @import url("./rodape.css");
+@import url("./breakpoint.css");
 
 *{
     margin: 0;
@@ -64,21 +65,6 @@ body {
 }
 
 
-@media(max-width: 1000px){
-    .cabecalho{
-        flex-direction: column;
-    }
-
-    .cabecalho nav{
-        margin-right: 0;
-    }
-}
-
-@media(max-width: 600px){
-    .cabecalho nav{
-        flex-wrap: wrap;
-    }
-}
 
 .texto-tit{
 

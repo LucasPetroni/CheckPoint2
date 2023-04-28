@@ -1,0 +1,17 @@
+
+/* BREAKPOINT-1000px */
+@media(max-width: 1000px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho nav{
+        margin-right: 0;
+    }
+}
+/* BREAKPOINT-600PX */
+@media(max-width: 600px){
+    .cabecalho nav{
+        flex-wrap: wrap;
+    }
+}
