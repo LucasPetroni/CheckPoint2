@@ -133,9 +133,3 @@ font-weight: 500;
   padding-bottom: 6vh;
 }
 
-#img-tit{
-    border-radius: 15px;
-    padding: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    /* margin: 2rem; */
-}
