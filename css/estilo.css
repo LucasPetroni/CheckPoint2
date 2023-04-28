@@ -36,8 +36,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 100%;
     margin-top: 10rem;
-    margin-bottom: 13rem;
+    margin-bottom: 14rem;
     /* padding: 2rem 2rem 0rem 2rem; */
 }
 
